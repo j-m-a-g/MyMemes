@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Joseph\\MyMemes\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84DBC10D-AE3C-4D4A-88D0-8010CD0781D3}|MyMemes.Android\\MyMemes.Android.csproj|c:\\users\\joseph\\mymemes\\mymemes.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DBC10D-AE3C-4D4A-88D0-8010CD0781D3}|MyMemes.Android\\MyMemes.Android.csproj|solutionrelative:mymemes.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DBC10D-AE3C-4D4A-88D0-8010CD0781D3}|MyMemes.Android\\MyMemes.Android.csproj|c:\\users\\joseph\\mymemes\\mymemes.android\\splashactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DBC10D-AE3C-4D4A-88D0-8010CD0781D3}|MyMemes.Android\\MyMemes.Android.csproj|solutionrelative:mymemes.android\\splashactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\MyMemes\\MyMemes.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MyMemes.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Joseph\\MyMemes\\MyMemes.Android\\MainActivity.cs",
+              "RelativeToolTip": "MyMemes.Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-23T19:48:40.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SplashActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Joseph\\MyMemes\\MyMemes.Android\\SplashActivity.cs",
+              "RelativeDocumentMoniker": "MyMemes.Android\\SplashActivity.cs",
+              "ToolTip": "C:\\Users\\Joseph\\MyMemes\\MyMemes.Android\\SplashActivity.cs",
+              "RelativeToolTip": "MyMemes.Android\\SplashActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-23T19:45:15.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

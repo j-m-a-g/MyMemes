@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyMemes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f997f43f3e8032d15ab720e079cdee348384199f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyMemes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyMemes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

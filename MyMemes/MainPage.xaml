@@ -1,24 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyMemes.MainPage">
+<ContentPage
+    BackgroundColor="{DynamicResource ContentPageBackground}"
+    x:Class="MyMemes.MainPage"
+    x:Name="MyMemesContentPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:material="clr-namespace:Plugin.MaterialDesignControls.Material3;assembly=Plugin.MaterialDesignControls"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+
+        <StackLayout
+            BackgroundColor="Black"
+            HeightRequest="30"
+            HorizontalOptions="FillAndExpand"
+            Padding="0,7,0,7"
+            x:Name="PageNameStackLayout">
+
+            <material:MaterialLabel
+                FontSize="18"
+                HorizontalOptions="StartAndExpand"
+                Margin="15,0,0,0"
+                Text="Home"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+
+        </StackLayout>
+
+        <ScrollView Padding="20,20,20,0" x:Name="HomeScrollView">
+
+            <StackLayout>
+
+                <material:MaterialLabel
+                    FontAttributes="Bold"
+                    FontSize="26"
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="0,0,0,10"
+                    Text="Memes of the month"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand" />
+
+                <material:MaterialCard BackgroundColor="{DynamicResource YellowAccent1}" Padding="20">
+
+                    <StackLayout Spacing="10">
+
+                        <Image HorizontalOptions="CenterAndExpand" Source="https://i.ibb.co/VJnvvFZ/meme1.png" />
+                        <material:MaterialLabel
+                            FontAttributes="Bold"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Disaster girl"
+                            VerticalOptions="CenterAndExpand" />
+
+                        <StackLayout
+                            BackgroundColor="{DynamicResource YellowAccent2}"
+                            HeightRequest="42"
+                            Orientation="Horizontal"
+                            xct:CornerRadiusEffect.CornerRadius="20">
+
+                            <material:MaterialIconButton
+                                Animation="Fade"
+                                BackgroundColor="Transparent"
+                                Icon="icons8_share_96.png" />
+                            <material:MaterialIconButton
+                                Animation="Fade"
+                                BackgroundColor="Transparent"
+                                Icon="icons8_remix_96.png"
+                                Margin="-25,0,0,0" />
+                            <material:MaterialButton
+                                BackgroundColor="{DynamicResource YellowAccent3}"
+                                HorizontalOptions="EndAndExpand"
+                                Text="See original"
+                                TextColor="Black" />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </material:MaterialCard>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <StackLayout
+            BackgroundColor="#434343"
+            HeightRequest="30"
+            Orientation="Horizontal"
+            Padding="15"
+            VerticalOptions="EndAndExpand"
+            x:Name="AppNavigationStackLayout">
+
+            <ImageButton BackgroundColor="Transparent" Source="icons8_home_96.png" />
+
+        </StackLayout>
+
     </StackLayout>
 
 </ContentPage>

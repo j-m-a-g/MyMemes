@@ -13,3 +13,4 @@ C:\Users\Joseph\MyMemes\MyMemes\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Joseph\MyMemes\MyMemes\obj\Debug\netstandard2.0\MyMemes.dll
 C:\Users\Joseph\MyMemes\MyMemes\obj\Debug\netstandard2.0\refint\MyMemes.dll
 C:\Users\Joseph\MyMemes\MyMemes\obj\Debug\netstandard2.0\MyMemes.pdb
+C:\Users\Joseph\MyMemes\MyMemes\obj\Debug\netstandard2.0\MyMemes.sourcelink.json
