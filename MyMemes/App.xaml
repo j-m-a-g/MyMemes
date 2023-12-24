@@ -9,6 +9,7 @@
         <Color x:Key="YellowAccent2">#ffcf4c</Color>
         <Color x:Key="YellowAccent3">#ffc63c</Color>
         <Color x:Key="ContentPageBackground">#262626</Color>
+        <Color x:Key="NavigationBackground">#434343</Color>
 
     </Application.Resources>
 </Application>

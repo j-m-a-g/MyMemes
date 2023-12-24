@@ -11,11 +11,12 @@
     <StackLayout>
 
         <StackLayout
-            BackgroundColor="Black"
+            BackgroundColor="{DynamicResource ContentPageBackground}"
             HeightRequest="30"
             HorizontalOptions="FillAndExpand"
             Padding="0,7,0,7"
-            x:Name="PageNameStackLayout">
+            x:Name="PageNameStackLayout"
+            xct:ShadowEffect.Color="{DynamicResource NavigationBackground}">
 
             <material:MaterialLabel
                 FontSize="18"
@@ -44,7 +45,10 @@
 
                     <StackLayout Spacing="10">
 
-                        <Image HorizontalOptions="CenterAndExpand" Source="https://i.ibb.co/VJnvvFZ/meme1.png" />
+                        <Image
+                            Aspect="Fill"
+                            HeightRequest="300"
+                            Source="https://i.ibb.co/VJnvvFZ/meme1.png" />
                         <material:MaterialLabel
                             FontAttributes="Bold"
                             HorizontalOptions="CenterAndExpand"
@@ -68,9 +72,54 @@
                                 Margin="-25,0,0,0" />
                             <material:MaterialButton
                                 BackgroundColor="{DynamicResource YellowAccent3}"
+                                Clicked="OriginBtn1_OnClicked"
                                 HorizontalOptions="EndAndExpand"
                                 Text="See original"
-                                TextColor="Black" />
+                                TextColor="Black"
+                                x:Name="OriginBtn1" />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </material:MaterialCard>
+                <material:MaterialCard BackgroundColor="{DynamicResource YellowAccent1}" Padding="20">
+
+                    <StackLayout Spacing="10">
+
+                        <Image
+                            Aspect="Fill"
+                            HeightRequest="300"
+                            Source="https://i.ibb.co/cxb8rMc/meme2.png"
+                            xct:ShadowEffect.Color="Black" />
+                        <material:MaterialLabel
+                            FontAttributes="Bold"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="They were too kind..."
+                            VerticalOptions="CenterAndExpand" />
+
+                        <StackLayout
+                            BackgroundColor="{DynamicResource YellowAccent2}"
+                            HeightRequest="42"
+                            Orientation="Horizontal"
+                            xct:CornerRadiusEffect.CornerRadius="20">
+
+                            <material:MaterialIconButton
+                                Animation="Fade"
+                                BackgroundColor="Transparent"
+                                Icon="icons8_share_96.png" />
+                            <material:MaterialIconButton
+                                Animation="Fade"
+                                BackgroundColor="Transparent"
+                                Icon="icons8_remix_96.png"
+                                Margin="-25,0,0,0" />
+                            <material:MaterialButton
+                                BackgroundColor="{DynamicResource YellowAccent3}"
+                                Clicked="OriginBtn2_OnClicked"
+                                HorizontalOptions="EndAndExpand"
+                                Text="See original"
+                                TextColor="Black"
+                                x:Name="OriginBtn2" />
 
                         </StackLayout>
 
@@ -78,12 +127,13 @@
 
                 </material:MaterialCard>
 
+
             </StackLayout>
 
         </ScrollView>
 
         <StackLayout
-            BackgroundColor="#434343"
+            BackgroundColor="{DynamicResource NavigationBackground}"
             HeightRequest="30"
             Orientation="Horizontal"
             Padding="15"

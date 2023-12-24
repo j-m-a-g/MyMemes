@@ -1,10 +1,12 @@
-﻿CUSTOM CONTROL BASE FOR MEME CARDS
-
-<material:MaterialCard BackgroundColor="{DynamicResource YellowAccent1}" Padding="20">
+﻿<material:MaterialCard BackgroundColor="{DynamicResource YellowAccent1}" Padding="20">
 
                     <StackLayout Spacing="10">
 
-                        <Image HorizontalOptions="CenterAndExpand" Source="<!--SOURCE-->" />
+                        <Image
+                            HorizontalOptions="CenterAndExpand" 
+                            HeightRequest=""
+                            Source="<!--SOURCE-->"
+                            xct:ShadowEffect.Color="Black" />
                         <material:MaterialLabel
                             FontAttributes="Bold"
                             HorizontalOptions="CenterAndExpand"
@@ -28,9 +30,11 @@
                                 Margin="-25,0,0,0" />
                             <material:MaterialButton
                                 BackgroundColor="{DynamicResource YellowAccent3}"
+                                Clicked=""
                                 HorizontalOptions="EndAndExpand"
                                 Text="See original"
-                                TextColor="Black" />
+                                TextColor="Black" 
+                                x:Name="OriginBtn<!--#-->"/>
 
                         </StackLayout>
 

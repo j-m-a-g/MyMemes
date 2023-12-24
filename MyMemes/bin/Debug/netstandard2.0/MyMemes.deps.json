@@ -14,7 +14,8 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.CommunityToolkit.Markup": "2.0.6",
           "Xamarin.Essentials": "1.8.1",
-          "Xamarin.Forms": "5.0.0.2622"
+          "Xamarin.Forms": "5.0.0.2622",
+          "Xamarin.Forms.PinchZoomImage": "1.2.0"
         },
         "runtime": {
           "MyMemes.dll": {}
@@ -133,6 +134,17 @@
             "fileVersion": "5.0.0.999"
           }
         }
+      },
+      "Xamarin.Forms.PinchZoomImage/1.2.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2622"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PinchZoomImage.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
       }
     }
   },
@@ -225,6 +237,13 @@
       "sha512": "sha512-vuhBbYbYM2fir0HkKeWBt3r+KzfJmXQQj4SlRYqRD/3MG9WS385T2VPuvakXMKgsGEkamaRyZacQ8ZPdac6cpA==",
       "path": "xamarin.forms/5.0.0.2622",
       "hashPath": "xamarin.forms.5.0.0.2622.nupkg.sha512"
+    },
+    "Xamarin.Forms.PinchZoomImage/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pt5pI8mHzmRGEZ7Y+6mKDiAwtfTEyOug8MyfTGoowsq8aUIDoGMBPARwGIFr6W6vcIHTgf1rRdXEPVGPguxlww==",
+      "path": "xamarin.forms.pinchzoomimage/1.2.0",
+      "hashPath": "xamarin.forms.pinchzoomimage.1.2.0.nupkg.sha512"
     }
   }
 }
